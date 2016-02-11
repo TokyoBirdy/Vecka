@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		352E791B1B91D63800504151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E791A1B91D63800504151 /* AppDelegate.swift */; };
+		352E791D1B91D63800504151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E791C1B91D63800504151 /* ViewController.swift */; };
+		352E79201B91D63800504151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352E791E1B91D63800504151 /* Main.storyboard */; };
+		352E79221B91D63800504151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 352E79211B91D63800504151 /* Assets.xcassets */; };
+		352E79251B91D63800504151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352E79231B91D63800504151 /* LaunchScreen.storyboard */; };
+		352E79301B91D63800504151 /* VeckaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E792F1B91D63800504151 /* VeckaTests.swift */; };
+		352E793B1B91D63800504151 /* VeckaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E793A1B91D63800504151 /* VeckaUITests.swift */; };
+		352E79491B91D67400504151 /* WeekCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E79481B91D67400504151 /* WeekCalculation.swift */; settings = {ASSET_TAGS = (); }; };
+		352E794B1B91E09E00504151 /* WeekCalculationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E794A1B91E09E00504151 /* WeekCalculationTest.swift */; settings = {ASSET_TAGS = (); }; };
+		352E7AC91B91EAA200504151 /* WeekCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E79481B91D67400504151 /* WeekCalculation.swift */; settings = {ASSET_TAGS = (); }; };
+		352E7ACA1B91EE2E00504151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E791C1B91D63800504151 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		352E792C1B91D63800504151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 352E790F1B91D63800504151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 352E79161B91D63800504151;
+			remoteInfo = Vecka;
+		};
+		352E79371B91D63800504151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 352E790F1B91D63800504151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 352E79161B91D63800504151;
+			remoteInfo = Vecka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		352E79171B91D63800504151 /* Vecka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vecka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		352E791A1B91D63800504151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		352E791C1B91D63800504151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		352E791F1B91D63800504151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		352E79211B91D63800504151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		352E79241B91D63800504151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		352E79261B91D63800504151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352E792B1B91D63800504151 /* VeckaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeckaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		352E792F1B91D63800504151 /* VeckaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeckaTests.swift; sourceTree = "<group>"; };
+		352E79311B91D63800504151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352E79361B91D63800504151 /* VeckaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeckaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		352E793A1B91D63800504151 /* VeckaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeckaUITests.swift; sourceTree = "<group>"; };
+		352E793C1B91D63800504151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352E79481B91D67400504151 /* WeekCalculation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekCalculation.swift; sourceTree = "<group>"; };
+		352E794A1B91E09E00504151 /* WeekCalculationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekCalculationTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		352E79141B91D63800504151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352E79281B91D63800504151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352E79331B91D63800504151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		352E790E1B91D63800504151 = {
+			isa = PBXGroup;
+			children = (
+				352E79191B91D63800504151 /* Vecka */,
+				352E792E1B91D63800504151 /* VeckaTests */,
+				352E79391B91D63800504151 /* VeckaUITests */,
+				352E79181B91D63800504151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		352E79181B91D63800504151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				352E79171B91D63800504151 /* Vecka.app */,
+				352E792B1B91D63800504151 /* VeckaTests.xctest */,
+				352E79361B91D63800504151 /* VeckaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		352E79191B91D63800504151 /* Vecka */ = {
+			isa = PBXGroup;
+			children = (
+				352E791A1B91D63800504151 /* AppDelegate.swift */,
+				352E791C1B91D63800504151 /* ViewController.swift */,
+				352E791E1B91D63800504151 /* Main.storyboard */,
+				352E79211B91D63800504151 /* Assets.xcassets */,
+				352E79231B91D63800504151 /* LaunchScreen.storyboard */,
+				352E79261B91D63800504151 /* Info.plist */,
+				352E79481B91D67400504151 /* WeekCalculation.swift */,
+			);
+			path = Vecka;
+			sourceTree = "<group>";
+		};
+		352E792E1B91D63800504151 /* VeckaTests */ = {
+			isa = PBXGroup;
+			children = (
+				352E792F1B91D63800504151 /* VeckaTests.swift */,
+				352E79311B91D63800504151 /* Info.plist */,
+				352E794A1B91E09E00504151 /* WeekCalculationTest.swift */,
+			);
+			path = VeckaTests;
+			sourceTree = "<group>";
+		};
+		352E79391B91D63800504151 /* VeckaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				352E793A1B91D63800504151 /* VeckaUITests.swift */,
+				352E793C1B91D63800504151 /* Info.plist */,
+			);
+			path = VeckaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		352E79161B91D63800504151 /* Vecka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 352E793F1B91D63800504151 /* Build configuration list for PBXNativeTarget "Vecka" */;
+			buildPhases = (
+				352E79131B91D63800504151 /* Sources */,
+				352E79141B91D63800504151 /* Frameworks */,
+				352E79151B91D63800504151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vecka;
+			productName = Vecka;
+			productReference = 352E79171B91D63800504151 /* Vecka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		352E792A1B91D63800504151 /* VeckaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 352E79421B91D63800504151 /* Build configuration list for PBXNativeTarget "VeckaTests" */;
+			buildPhases = (
+				352E79271B91D63800504151 /* Sources */,
+				352E79281B91D63800504151 /* Frameworks */,
+				352E79291B91D63800504151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				352E792D1B91D63800504151 /* PBXTargetDependency */,
+			);
+			name = VeckaTests;
+			productName = VeckaTests;
+			productReference = 352E792B1B91D63800504151 /* VeckaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		352E79351B91D63800504151 /* VeckaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 352E79451B91D63800504151 /* Build configuration list for PBXNativeTarget "VeckaUITests" */;
+			buildPhases = (
+				352E79321B91D63800504151 /* Sources */,
+				352E79331B91D63800504151 /* Frameworks */,
+				352E79341B91D63800504151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				352E79381B91D63800504151 /* PBXTargetDependency */,
+			);
+			name = VeckaUITests;
+			productName = VeckaUITests;
+			productReference = 352E79361B91D63800504151 /* VeckaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		352E790F1B91D63800504151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Humlelu;
+				TargetAttributes = {
+					352E79161B91D63800504151 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					352E792A1B91D63800504151 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 352E79161B91D63800504151;
+					};
+					352E79351B91D63800504151 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 352E79161B91D63800504151;
+					};
+				};
+			};
+			buildConfigurationList = 352E79121B91D63800504151 /* Build configuration list for PBXProject "Vecka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 352E790E1B91D63800504151;
+			productRefGroup = 352E79181B91D63800504151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				352E79161B91D63800504151 /* Vecka */,
+				352E792A1B91D63800504151 /* VeckaTests */,
+				352E79351B91D63800504151 /* VeckaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		352E79151B91D63800504151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352E79251B91D63800504151 /* LaunchScreen.storyboard in Resources */,
+				352E79221B91D63800504151 /* Assets.xcassets in Resources */,
+				352E79201B91D63800504151 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352E79291B91D63800504151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352E79341B91D63800504151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		352E79131B91D63800504151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352E79491B91D67400504151 /* WeekCalculation.swift in Sources */,
+				352E791D1B91D63800504151 /* ViewController.swift in Sources */,
+				352E791B1B91D63800504151 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352E79271B91D63800504151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352E7AC91B91EAA200504151 /* WeekCalculation.swift in Sources */,
+				352E79301B91D63800504151 /* VeckaTests.swift in Sources */,
+				352E7ACA1B91EE2E00504151 /* ViewController.swift in Sources */,
+				352E794B1B91E09E00504151 /* WeekCalculationTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352E79321B91D63800504151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352E793B1B91D63800504151 /* VeckaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		352E792D1B91D63800504151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 352E79161B91D63800504151 /* Vecka */;
+			targetProxy = 352E792C1B91D63800504151 /* PBXContainerItemProxy */;
+		};
+		352E79381B91D63800504151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 352E79161B91D63800504151 /* Vecka */;
+			targetProxy = 352E79371B91D63800504151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		352E791E1B91D63800504151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				352E791F1B91D63800504151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		352E79231B91D63800504151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				352E79241B91D63800504151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		352E793D1B91D63800504151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		352E793E1B91D63800504151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		352E79401B91D63800504151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vecka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Humlelu.Vecka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		352E79411B91D63800504151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vecka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Humlelu.Vecka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		352E79431B91D63800504151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VeckaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Humlelu.VeckaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vecka.app/Vecka";
+			};
+			name = Debug;
+		};
+		352E79441B91D63800504151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VeckaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Humlelu.VeckaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vecka.app/Vecka";
+			};
+			name = Release;
+		};
+		352E79461B91D63800504151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VeckaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Humlelu.VeckaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vecka;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		352E79471B91D63800504151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VeckaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Humlelu.VeckaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vecka;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		352E79121B91D63800504151 /* Build configuration list for PBXProject "Vecka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352E793D1B91D63800504151 /* Debug */,
+				352E793E1B91D63800504151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		352E793F1B91D63800504151 /* Build configuration list for PBXNativeTarget "Vecka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352E79401B91D63800504151 /* Debug */,
+				352E79411B91D63800504151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		352E79421B91D63800504151 /* Build configuration list for PBXNativeTarget "VeckaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352E79431B91D63800504151 /* Debug */,
+				352E79441B91D63800504151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		352E79451B91D63800504151 /* Build configuration list for PBXNativeTarget "VeckaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352E79461B91D63800504151 /* Debug */,
+				352E79471B91D63800504151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 352E790F1B91D63800504151 /* Project object */;
+}
